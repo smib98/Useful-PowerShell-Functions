@@ -1,0 +1,1 @@
+$health = {clear;Get-VpnConnection | Select -Property Name -ExpandProperty Name;Get-VpnConnection | Select -Property ConnectionStatus -ExpandProperty ConnectionStatus;Get-VpnConnection -AllUserConnection | Select -Property Name -ExpandProperty Name;Get-VpnConnection -AllUserConnection | Select -Property ConnectionStatus -ExpandProperty ConnectionStatus};&$health
